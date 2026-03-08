@@ -1,0 +1,105 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Datos grandes
+*.h5
+*.pkl
+*.pickle
+*.pth
+*.onnx
+*.pb
+*.zip
+
+# Logs y outputs
+*.log
+logs/
+*.csv
+results/
+output/
+checkpoints/
+
+# Datos descargados de CIFAR (muy grandes)
+cifar-10-batches-py/
+cifar-100-python/
+data/
+datasets/
+
+# Archivos temporales del sistema
+.tmp/
+temp/
+*.tmp
+*.bak
+
+# Archivos específicos de macOS
+.AppleDouble
+.LSOverride
+*.DS_Store
+
+# Archivos específicos de Windows
+Thumbs.db
+desktop.ini
+
+# Directorios de caché
+.cache/
+.pytest_cache/
+
+# Archivos de configuración local
+local_config.py
+config.local.py
+
+# Modelos entrenados (excepto best_model.h5 que está trackeado)
+# Si necesitas más excepciones, descomenta las líneas apropiadas
+# *.h5
+# !best_model.h5
+
+# Directorio de visualizaciones temporales
+plots/
+*.png
+*.jpg
+*.jpeg
+
+# Notebooks con salida
+.output/
