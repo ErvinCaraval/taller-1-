@@ -42,7 +42,6 @@ MANIFEST
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb_checkpoints
 
 # Datos grandes
 *.h5
@@ -97,9 +96,6 @@ config.local.py
 
 # Directorio de visualizaciones temporales
 plots/
-*.png
-*.jpg
-*.jpeg
-
-# Notebooks con salida
-.output/
+plots/*.png
+plots/*.jpg
+plots/*.jpeg
