@@ -294,7 +294,7 @@ python -m ipykernel install --user --name venv --display-name "Python (venv)"
 
 4. **Reproducibilidad**: Los notebooks fijan semillas aleatorias para reproducir resultados.
 
-5. **Modelos Guardados**: El archivo `best_model.h5` contiene un modelo ya entrenado que puede cargarse sin necesidad de reentrenar.
+5. **Modelos Guardados**: El archivo `best_model.h5` contiene un modelo ya entrenado que puede cargarse sin necesidad de reentrenar.....
 
 ---
 
